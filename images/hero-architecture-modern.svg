@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Architecture Surf Background</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="bgGradient">
+            <stop stop-color="#1A2A6C" offset="0%"></stop>
+            <stop stop-color="#2C3E50" offset="50%"></stop>
+            <stop stop-color="#4B6CB7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="buildingGradient">
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Background -->
+        <rect fill="url(#bgGradient)" x="0" y="0" width="1920" height="1080"></rect>
+        
+        <!-- Abstract Wave Pattern -->
+        <path d="M0,540 C320,420 640,660 960,540 C1280,420 1600,660 1920,540 L1920,1080 L0,1080 L0,540 Z" fill="#4B6CB7" opacity="0.3"></path>
+        <path d="M0,640 C320,520 640,760 960,640 C1280,520 1600,760 1920,640 L1920,1080 L0,1080 L0,640 Z" fill="#FFFFFF" opacity="0.1"></path>
+        
+        <!-- Abstract Building Skyline -->
+        <!-- Tall Building 1 -->
+        <rect fill="url(#buildingGradient)" x="100" y="300" width="60" height="780"></rect>
+        <!-- Tall Building 2 -->
+        <rect fill="url(#buildingGradient)" x="300" y="200" width="80" height="880"></rect>
+        <!-- Medium Building 1 -->
+        <rect fill="url(#buildingGradient)" x="500" y="400" width="100" height="680"></rect>
+        <!-- Tall Building 3 -->
+        <rect fill="url(#buildingGradient)" x="700" y="150" width="70" height="930"></rect>
+        <!-- Medium Building 2 -->
+        <rect fill="url(#buildingGradient)" x="900" y="350" width="120" height="730"></rect>
+        <!-- Skyscraper -->
+        <rect fill="url(#buildingGradient)" x="1100" y="100" width="90" height="980"></rect>
+        <!-- Medium Building 3 -->
+        <rect fill="url(#buildingGradient)" x="1300" y="450" width="110" height="630"></rect>
+        <!-- Tall Building 4 -->
+        <rect fill="url(#buildingGradient)" x="1500" y="250" width="75" height="830"></rect>
+        <!-- Medium Building 4 -->
+        <rect fill="url(#buildingGradient)" x="1700" y="380" width="120" height="700"></rect>
+        
+        <!-- Abstract Wave Lines -->
+        <path d="M0,800 C240,750 480,850 720,800 C960,750 1200,850 1440,800 C1680,750 1920,850 1920,800" stroke="#FFFFFF" stroke-width="2" opacity="0.5"></path>
+        <path d="M0,850 C240,800 480,900 720,850 C960,800 1200,900 1440,850 C1680,800 1920,900 1920,850" stroke="#FFFFFF" stroke-width="2" opacity="0.4"></path>
+        <path d="M0,900 C240,850 480,950 720,900 C960,850 1200,950 1440,900 C1680,850 1920,950 1920,900" stroke="#FFFFFF" stroke-width="2" opacity="0.3"></path>
+    </g>
+</svg>

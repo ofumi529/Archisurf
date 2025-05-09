@@ -74,12 +74,34 @@ img {
 /* Header Section */
 .header {
   height: 100vh;
-  background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.9)), url('../images/hero-architecture.svg');
+  background: linear-gradient(rgba(44, 62, 80, 0.5), rgba(44, 62, 80, 0.6)), url('../images/hero-architecture-modern.svg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('../images/wave-overlay.svg');
+  background-size: cover;
+  background-position: bottom;
+  animation: waveAnimation 15s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes waveAnimation {
+  0% { background-position: 0 bottom; }
+  100% { background-position: 100vw bottom; }
 }
 
 .header-content {

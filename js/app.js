@@ -8,7 +8,7 @@ const architectureSites = [
   {
     id: 1,
     title: "Dezeen",
-    description: "世界的に人気のある建築・インテリア・デザインマガジン。質の高いプロジェクト情報、画像、建築図面を備えた印象的なプロジェクトが数多く掲載されています。",
+    description: "世界的に人気のある建築・インテリア・デザインマガジンです。建築セクションには、質の高いプロジェクト情報、画像、建築図面を備えた印象的なプロジェクトが数多く掲載されています。デザイナーへのインタビュー、業界の最新トピックに深く迫る編集シリーズ、意見記事、トークやビデオなど、様々な形式のコンテンツが特徴です。",
     imageUrl: "images/sites/dezeen.svg",
     siteUrl: "https://www.dezeen.com/",
     tags: ["magazine", "modern", "international", "design"]
@@ -16,7 +16,7 @@ const architectureSites = [
   {
     id: 2,
     title: "ArchDaily",
-    description: "建築家や学生の間でよく知られている建築サイト。写真や図面をキュレーションしたイメージギャラリーを含む、幅広い建築プロジェクトをカバーしています。",
+    description: "建築家や学生の間でよく知られている建築サイトです。写真や図面をキュレーションしたイメージギャラリーを含む、幅広い建築プロジェクトをカバーしています。アカウントを作成してプロジェクトを「フォルダ」に保存し、自分だけの参考資料ライブラリを作ることができます。",
     imageUrl: "images/sites/archdaily.svg",
     siteUrl: "https://www.archdaily.com/",
     tags: ["platform", "projects", "international", "gallery"]
@@ -24,7 +24,7 @@ const architectureSites = [
   {
     id: 3,
     title: "Renzo Piano Building Workshop",
-    description: "エレガントで長持ちするデザインで知られるRenzo Piano Building Workshopのウェブサイト。環境に配慮した建築の素晴らしい例を紹介しています。",
+    description: "エレガントで長持ちするデザインで知られるRenzo Piano Building Workshopのウェブサイトは、環境に配慮した建築の素晴らしい例を紹介しています。このサイトは、事務所のデザイン理念と代表的な建築物を効果的に紹介している点で、2025年の優れた建築サイトのひとつとされています。",
     imageUrl: "images/sites/rpbw.svg",
     siteUrl: "https://www.rpbw.com/",
     tags: ["architect", "sustainable", "international", "portfolio"]
@@ -32,7 +32,7 @@ const architectureSites = [
   {
     id: 4,
     title: "CLB Architects",
-    description: "大胆なシンプルさと没入感のあるビジュアルへの注力が特徴。完成プロジェクトの印象的な夜景写真をフルワイドで表示し、自然環境と建築を融合させる事務所の卓越した技術を示しています。",
+    description: "CLB Architectsのウェブサイトは、大胆なシンプルさと没入感のあるビジュアルへの注力が特徴です。ホームページは、完成プロジェクトの印象的な夜景写真をフルワイドで表示し、自然環境と建築を融合させる事務所の卓越した技術を示しています。「場所からのインスピレーション」というタグラインは、コンテキストを重視するデザイン姿勢をさらに強調しています。",
     imageUrl: "images/sites/clb.svg",
     siteUrl: "https://clbarchitects.com/",
     tags: ["architect", "portfolio", "visual", "nature"]
@@ -40,50 +40,34 @@ const architectureSites = [
   {
     id: 5,
     title: "Studio MEMM",
-    description: "ブラジルの建築事務所。ニューヨークの大人向けツリーハウスからガラス張りのファームスクールまで、多様で革新的なデザインポートフォリオをウェブサイトで紹介しています。",
+    description: "ブラジルの建築事務所Studio MEMMは、ニューヨークの大人向けツリーハウスからガラス張りのファームスクールまで、多様で革新的なデザインポートフォリオをウェブサイトで紹介しています。各プロジェクトのページには大きな特徴的な画像と、プロジェクトの主な動機と課題を説明する明確で魅力的な説明文が掲載されています。",
     imageUrl: "images/sites/memm.svg",
     siteUrl: "https://studiomemm.com/",
     tags: ["architect", "portfolio", "innovative", "international"]
   },
   {
     id: 6,
-    title: "Architects & Associates (A&A)",
-    description: "タイの建築パワーハウス。ランディングページで主要開発プロジェクトの美しい3Dレンダリングを循環表示しています。この視覚的なナレーションにより、訪問者はこれらの建物の記念碑的なスケールを即座に把握できます。",
-    imageUrl: "images/sites/a-and-a.svg",
-    siteUrl: "https://www.a-and-a.com/",
-    tags: ["architect", "3d", "commercial", "residential"]
-  },
-  {
-    id: 7,
-    title: "Archipelago",
-    description: "独特のブランド、モダンなデザインスタイル、インタラクティブな要素を組み合わせたユニークなウェブサイトデザイン。CSS Design Awardsで特別賞を受賞しました。",
-    imageUrl: "images/sites/archipelago.svg",
-    siteUrl: "https://archipelago.com/",
-    tags: ["architect", "interactive", "award", "modern"]
-  },
-  {
-    id: 8,
-    title: "Archi Site Mobius",
-    description: "静寂感のある空間を創造することを目指し、ウェブサイトを通じて専門知識を共有。革新的なGSAPアニメーションを活用したプロジェクト展示が特徴です。",
-    imageUrl: "images/sites/mobius.svg",
-    siteUrl: "https://archi-site-mobius.com/",
-    tags: ["architect", "animation", "inspiration", "portfolio"]
-  },
-  {
-    id: 9,
     title: "Minale + Mann",
-    description: "ミニマリストで合理的なデザインとビジュアルナビゲーションを採用。複雑なアニメーションやトランジションを組み込み、ユーザーをサイト全体に案内しています。",
+    description: "Minale + Mannのウェブサイトは、ミニマリストで合理的なデザインとビジュアルナビゲーションを採用しています。高品質なウェブサイトで、複雑なアニメーションやトランジションを組み込み、ユーザーをサイト全体に案内しています。",
     imageUrl: "images/sites/minale-mann.svg",
     siteUrl: "https://minaleandmann.com/",
     tags: ["architect", "minimalist", "animation", "navigation"]
   },
   {
-    id: 10,
+    id: 7,
     title: "Awwwards - Architecture Collection",
-    description: "建築分野のプロフェッショナルにインスピレーションを与え、指針となるよう厳選されたウェブサイトコレクション。各サイトは美的魅力と優れた機能性で際立ち、シームレスなユーザー体験を保証しています。",
+    description: "建築分野のプロフェッショナルにインスピレーションを与え、指針となるよう厳選されたウェブサイトコレクションです。各サイトは美的魅力と優れた機能性で際立ち、シームレスなユーザー体験を保証しています。先進的な検索機能を備え、膨大なポートフォリオや建築プロジェクトをナビゲートしやすくなっています。",
     imageUrl: "images/sites/awwwards.svg",
     siteUrl: "https://www.awwwards.com/websites/architecture/",
     tags: ["collection", "inspiration", "award", "curated"]
+  },
+  {
+    id: 8,
+    title: "Bocci",
+    description: "2025年ミラノデザインウィークでは、オリオルやフューチャーパーフェクトとのコラボレーションにより、カナダを拠点とする照明ブランドBocciがミラノのアパートメントショールームで、ベッドルームの腰板の上にカリコ・ウォールペーパーの水彩画のような壁紙を使用していました。",
+    imageUrl: "images/sites/mobius.svg",
+    siteUrl: "https://www.bocci.com/",
+    tags: ["design", "lighting", "interior", "exhibition"]
   }
 ];
 
