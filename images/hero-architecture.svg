@@ -1,0 +1,40 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#2C3E50"/>
+  <polygon points="960,100 1200,400 1100,800 820,800 720,400" fill="#1a2530" opacity="0.7"/>
+  <rect x="400" y="500" width="200" height="400" fill="#34495e"/>
+  <rect x="650" y="400" width="150" height="500" fill="#34495e"/>
+  <rect x="1120" y="450" width="180" height="450" fill="#34495e"/>
+  <rect x="1350" y="550" width="220" height="350" fill="#34495e"/>
+  
+  <!-- Windows -->
+  <rect x="420" y="530" width="40" height="40" fill="#ECF0F1"/>
+  <rect x="480" y="530" width="40" height="40" fill="#ECF0F1"/>
+  <rect x="540" y="530" width="40" height="40" fill="#ECF0F1"/>
+  
+  <rect x="420" y="600" width="40" height="40" fill="#ECF0F1"/>
+  <rect x="480" y="600" width="40" height="40" fill="#ECF0F1"/>
+  <rect x="540" y="600" width="40" height="40" fill="#ECF0F1"/>
+  
+  <rect x="420" y="670" width="40" height="40" fill="#ECF0F1"/>
+  <rect x="480" y="670" width="40" height="40" fill="#ECF0F1"/>
+  <rect x="540" y="670" width="40" height="40" fill="#ECF0F1"/>
+  
+  <rect x="670" y="430" width="30" height="50" fill="#ECF0F1"/>
+  <rect x="750" y="430" width="30" height="50" fill="#ECF0F1"/>
+  <rect x="670" y="510" width="30" height="50" fill="#ECF0F1"/>
+  <rect x="750" y="510" width="30" height="50" fill="#ECF0F1"/>
+  <rect x="670" y="590" width="30" height="50" fill="#ECF0F1"/>
+  <rect x="750" y="590" width="30" height="50" fill="#ECF0F1"/>
+  
+  <rect x="1140" y="480" width="35" height="60" fill="#ECF0F1"/>
+  <rect x="1240" y="480" width="35" height="60" fill="#ECF0F1"/>
+  <rect x="1140" y="580" width="35" height="60" fill="#ECF0F1"/>
+  <rect x="1240" y="580" width="35" height="60" fill="#ECF0F1"/>
+  
+  <rect x="1370" y="580" width="40" height="70" fill="#ECF0F1"/>
+  <rect x="1470" y="580" width="40" height="70" fill="#ECF0F1"/>
+  <rect x="1370" y="680" width="40" height="70" fill="#ECF0F1"/>
+  <rect x="1470" y="680" width="40" height="70" fill="#ECF0F1"/>
+  
+  <text x="50%" y="950" font-family="Arial" font-size="24" fill="#ECF0F1" text-anchor="middle">Modern Architecture Skyline</text>
+</svg>

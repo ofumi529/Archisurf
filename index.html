@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArchSurf - 最先端の建築デザインサイトコレクション">
+    
+    <!-- OGP Tags -->
+    <meta property="og:title" content="ArchSurf - 建築の海をサーフィン">
+    <meta property="og:description" content="最先端の建築デザインサイトへのリンクを集めた、視覚的に魅力的なコレクション">
+    <meta property="og:image" content="/images/og-image.jpg">
+    <meta property="og:url" content="https://archsurf.example.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>ArchSurf - 建築の海をサーフィン</title>
+</head>
+<body>
+    <!-- ヘッダーセクション -->
+    <section class="header">
+        <div class="header-content">
+            <h1>ArchSurf</h1>
+            <p class="tagline">最先端の建築デザインサイトコレクション</p>
+            <a href="#sites" class="scroll-cta">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>探索する</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- フィルターナビゲーション -->
+    <nav class="filter-nav" id="sites">
+        <div class="container">
+            <button class="filter-btn active" data-category="all">すべて</button>
+            <button class="filter-btn" data-category="magazine">マガジン</button>
+            <button class="filter-btn" data-category="platform">プラットフォーム</button>
+            <button class="filter-btn" data-category="japanese">日本</button>
+            <button class="filter-btn" data-category="international">国際</button>
+            <button class="filter-btn" data-category="modern">モダン</button>
+            <button class="filter-btn" data-category="academic">学術</button>
+            <button class="filter-btn" data-category="organization">組織</button>
+        </div>
+    </nav>
+
+    <!-- コンテンツグリッド -->
+    <section class="architecture-grid">
+        <div class="container">
+            <div class="grid-container">
+                <!-- サイトカードはJavaScriptで動的に生成されます -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ニュースレター登録 -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>最新の建築トレンドを受け取る</h2>
+            <p>ニュースレターに登録して、最新の建築デザイントレンドや新しく追加されたサイトについての情報を受け取りましょう。</p>
+            <form class="signup-form">
+                <input type="email" placeholder="メールアドレス" required>
+                <button type="submit">登録</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>ArchSurfについて</h4>
+                    <ul>
+                        <li><a href="#">私たちについて</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">利用規約</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>カテゴリー</h4>
+                    <ul>
+                        <li><a href="#" data-filter="magazine">マガジン</a></li>
+                        <li><a href="#" data-filter="platform">プラットフォーム</a></li>
+                        <li><a href="#" data-filter="japanese">日本</a></li>
+                        <li><a href="#" data-filter="international">国際</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>フォローする</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 ArchSurf. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- モード切替ボタン -->
+    <button id="theme-toggle" class="theme-toggle">
+        <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+            <path d="M12 2V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M12 20V22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M4 12L2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M22 12L20 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M19.7782 4.22183L18.364 5.63604" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M5.63604 18.364L4.22183 19.7782" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M19.7782 19.7782L18.364 18.364" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M5.63604 5.63604L4.22183 4.22183" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- お気に入りボタン -->
+    <button id="favorites-toggle" class="favorites-toggle">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="favorites-count">0</span>
+    </button>
+
+    <!-- JavaScripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>

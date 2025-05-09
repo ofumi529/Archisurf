@@ -1,0 +1,7 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f8f8"/>
+  <rect x="100" y="100" width="400" height="200" fill="#FFFFFF" stroke="#2C3E50" stroke-width="3"/>
+  <text x="300" y="180" font-family="Arial" font-size="32" fill="#2C3E50" text-anchor="middle" font-weight="bold">RPBW</text>
+  <text x="300" y="230" font-family="Arial" font-size="18" fill="#2C3E50" text-anchor="middle">Renzo Piano Building Workshop</text>
+  <line x1="200" y1="260" x2="400" y2="260" stroke="#E74C3C" stroke-width="3"/>
+</svg>

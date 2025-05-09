@@ -1,0 +1,7 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#000000"/>
+  <text x="300" y="180" font-family="Arial" font-size="42" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AWWWARDS</text>
+  <text x="300" y="230" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle">Architecture Collection</text>
+  <rect x="200" y="250" width="200" height="3" fill="#E74C3C"/>
+  <rect x="250" y="270" width="100" height="3" fill="#E74C3C"/>
+</svg>
